@@ -7,6 +7,7 @@ from boosters import *
 from random import randint, choice
 
 
+# основной класс игры
 class Game:
     def __init__(self):
         pygame.init()

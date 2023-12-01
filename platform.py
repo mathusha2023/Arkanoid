@@ -1,6 +1,7 @@
 import pygame
 
 
+# класс платформы
 class Platform(pygame.sprite.Sprite):
     def __init__(self, game):
         super().__init__()
